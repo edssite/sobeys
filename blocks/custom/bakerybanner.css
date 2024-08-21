@@ -1,0 +1,40 @@
+.bakery-banner {
+    position: relative; /* This allows positioning of child elements relative to the banner */
+    width: 100%; /* Adjust as needed */
+    height: 300px; /* Adjust as needed */
+    overflow: hidden;
+    margin-top: 140px;
+}
+
+.bakery-banner > div > div > h3  {
+    position: absolute;
+    top: 25%;
+    right: 170px; /* Adjust for desired distance from the right */
+    transform: translateY(-50%); /* Centers the text vertically */
+    color: white; /* Adjust text color as needed */
+    z-index: 1; /* Ensures text is above the image */
+    font-family: gt-esti-light;
+    font-size: xxx-large;
+}
+
+.bakery-banner h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 2rem; /* Adjust text size as needed */
+}
+
+.hero-title > div > div {
+    display: flex; /* Make the container a flexbox */
+    flex-direction: column; /* Stack the h2 and p vertically */
+    align-items: center; /* Center the h2 and p horizontally */
+    justify-content: center; /* Center the h2 and p vertically */
+    text-align: center; /* Center the text inside the h2 and p */
+    height: 100%; /* Ensure the container takes up the full height of its parent (if needed) */
+}
+
+.hero-title > div > div > h2 {
+    font-family: gt-esti-ultra-bold;
+    font-size: xxx-large;
+    color: rgb(31, 31, 31);
+}
+

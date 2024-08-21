@@ -1,0 +1,71 @@
+/* IMAGE ON RIGHT */
+.action-card-right > div {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.action-card-right > div > div:first-child {
+    background-image: url(https://www.sobeys.com/wp-content/uploads/2023/06/Marble-Texture-Background.jpg);
+    width: 80%;
+    height: 500px; /* Adjust height as needed */
+    display: flex;
+    flex-direction: column; /* Stacks h3 and p vertically */
+    justify-content: center; /* Centers content vertically */
+    padding: 30px; /* Adds padding around the content */
+}
+
+
+.action-card-right > div > div:last-child {
+    width: 90%;
+    height: 500px;
+}
+
+.action-card-right > div > div:first-child h3,
+.action-card-right > div > div:first-child p {
+    margin: 0; /* Removes default margins */
+    text-align: left; /* Aligns text to the left */
+    align-self: flex-start; /* Aligns the h3 and p to the left within the flex container */
+}
+
+.action-card-right > div > div:first-child h3 {
+    font-size: 33pt;
+    padding-bottom: 15px;
+}
+
+
+
+/* IMAGE ON LEFT */
+
+.action-card-left > div {
+    display: flex;
+    padding-top: 20px;
+}
+
+.action-card-left > div > div:last-child {
+    background-image: url(https://www.sobeys.com/wp-content/uploads/2023/06/Marble-Texture-Background.jpg);
+    width: 90%;
+    height: 450px; /* Adjust height as needed */
+    display: flex;
+    flex-direction: column; /* Stacks h3 and p vertically */
+    justify-content: center; /* Centers content vertically */
+    padding: 30px; /* Adds padding around the content */
+}
+
+
+.action-card-left > div > div:first-child {
+    width: 80%;
+    height: 100%;
+}
+
+.action-card-left > div > div:last-child h3,
+.action-card-left > div > div:last-child p {
+    margin: 0; /* Removes default margins */
+    text-align: left; /* Aligns text to the left */
+    align-self: flex-start; /* Aligns the h3 and p to the left within the flex container */
+}
+
+.action-card-left > div > div:last-child h3 {
+    font-size: 33pt;
+    padding-bottom: 15px;
+}

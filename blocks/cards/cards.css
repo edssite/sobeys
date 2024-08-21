@@ -1,10 +1,14 @@
+.cards {
+ 
+}
 .cards > ul {
   list-style: none;
+  width: 100%;
   margin: 0;
   padding: 0;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
-  grid-gap: 24px;
+  grid-gap: 20px;
 }
 
 .cards > ul > li {
@@ -12,6 +16,9 @@
   background-color: var(--background-color);
 }
 
+.cards .cards-card-body > h2 {
+  font-size: xx-large;
+}
 .cards .cards-card-body {
   margin: 16px;
 }
