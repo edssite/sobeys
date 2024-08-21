@@ -132,6 +132,20 @@ export default async function decorate(block) {
     brandLink.closest('.button-container').className = '';
   }
 
+  // CUSTOM: Input Text Bar
+  const navTools = nav.querySelector('.nav-tools');
+  if (navTools) {
+    // Create the text input element
+    const input = document.createElement('input');
+    input.type = 'text';
+    input.placeholder = 'Search products, articles and recipes....';
+    input.className = 'nav-search-input';
+
+    // Add the text input as the first element in the nav-tools area
+    navTools.prepend(input);
+  }
+
+
   const navSections = nav.querySelector('.nav-sections');
   if (navSections) {
     navSections.querySelectorAll(':scope .default-content-wrapper > ul > li').forEach((navSection) => {
