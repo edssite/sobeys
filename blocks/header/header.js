@@ -145,7 +145,6 @@ export default async function decorate(block) {
     navTools.prepend(input);
   }
 
-
   const navSections = nav.querySelector('.nav-sections');
   if (navSections) {
     navSections.querySelectorAll(':scope .default-content-wrapper > ul > li').forEach((navSection) => {
