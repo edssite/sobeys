@@ -1,0 +1,85 @@
+.cards-custom {
+    display: flex;
+    gap: 16px; /* Adds a gap between each card */
+    flex-wrap: wrap; /* Allows cards to wrap to the next line if needed */
+    padding-bottom: 20px;
+}
+
+.cards-custom > div {
+    border: 1px solid #ccc; /* Thin grey border around each card */
+    box-sizing: border-box; /* Ensures padding and border don't affect the overall width */
+    width: calc(33.333% - 16px); /* Example: Adjusts width to fit 3 cards per row, with gap */
+}
+
+.cards-custom > div > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cards-custom > div > div > img {
+    max-width: 100%; /* Ensures images are responsive */
+    height: auto;
+    display: block;
+}
+
+.cards-custom > div > div > h2 {
+    margin-top: 10px; /* Adds space between the image and heading */
+    font-size: x-large;
+    font-family: gt-esti-ultra-bold;
+    color: black;
+    padding-left: 20px;
+}
+
+.cards-custom > div > div > .button-container a {
+    color: red;
+}
+
+
+.cards-custom > div > div > .button-container a.button,
+.cards-custom > div > div > .button-container a.button {
+    display: inline-block; /* Make the anchor behave like a block-level element */
+    background-color: white; /* Set the background color to yellow */
+    color: green;
+    border-radius: 0px; /* Optional: Add border radius to make the corners rounded */
+    font-weight: bolder; /* Make the text bold */
+    font-size: large;
+    font-family: sans-serif;
+    text-align: left;
+    padding-left: 15px;
+    position: relative; /* For positioning the pseudo-element */
+}
+
+
+/* Button hover styles */
+.cards-custom > div > div > .button-container a.button:hover,
+.cards-custom > div > div > .button-container a.button:hover {
+    display: inline-block;
+    background-color: white;
+    color: green;
+    font-weight: bolder;
+    font-size: large;
+    font-family: sans-serif;
+    text-align: left;
+    text-decoration: underline;
+    padding-left: 0px;
+    position: relative;
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    padding-left: 15px;
+}
+
+/* Adding the arrow using pseudo-element */
+.cards-custom > div > div > .button-container a.button::after {
+    content: '→'; /* Unicode arrow character */
+    display: inline-block;
+    position: absolute;
+    right: 0; /* Start the arrow at the right edge */
+    top: 50%; /* Center it vertically */
+    transform: translateY(-50%); /* Ensure it's centered vertically */
+    transition: right 0.3s ease; /* Smooth transition for arrow movement */
+}
+
+/* Hover effect to move the arrow */
+.cards-custom > div > div > .button-container a.button:hover::after {
+    right: -10px; /* Move the arrow 5px to the right when hovered */
+}
