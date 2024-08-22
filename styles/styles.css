@@ -186,7 +186,7 @@ button {
   line-height: 1.25;
   text-align: center;
   text-decoration: none;
-  background-color: var(--link-color);
+  background-color: black;
   color: var(--background-color);
   cursor: pointer;
   overflow: hidden;
@@ -198,7 +198,8 @@ a.button:hover,
 a.button:focus,
 button:hover,
 button:focus {
-  background-color: var(--link-hover-color);
+  background-color: white;
+  color: black;
   cursor: pointer;
 }
 
@@ -234,13 +235,12 @@ main img {
 
 /* sections */
 main > .section {
-  margin: 40px 0;
+  margin: 0px 0;
 }
 
 main > .section > div {
   max-width: 1200px;
   margin: auto;
-  padding: 0 24px;
 }
 
 main > .section:first-of-type {
@@ -249,7 +249,6 @@ main > .section:first-of-type {
 
 @media (width >= 900px) {
   main > .section > div {
-    padding: 0 32px;
   }
 }
 
