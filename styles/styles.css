@@ -12,6 +12,7 @@
 
  @import url("../blocks/custom/action-card.css");
  @import url("../blocks/custom/hero-card.css");
+ @import url("../blocks/custom/hover-items.css");
 
 :root {
   /* colors */
