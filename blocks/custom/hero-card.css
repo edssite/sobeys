@@ -1,0 +1,25 @@
+.hero-cards {
+    display: flex;
+    margin-top: 20px;
+}
+
+.hero-cards > div {
+    border-right: 0.5px solid #ccc; /* Border on the right side */
+    border-bottom: 0.5px solid #ccc; /* Border on the right side */
+    overflow: hidden; /* Ensure the pseudo-element doesn't overflow the parent */
+}
+
+.hero-cards> div:last-child {
+    border-right: none; /* Remove the right border from the last item */
+}
+
+.hero-cards > div > div > h3  {
+    font-size: x-large;
+    padding-left: 10px;
+}
+
+
+.hero-cards > div > div > p  {
+    font-size: medium;
+    padding-left: 10px;
+}
