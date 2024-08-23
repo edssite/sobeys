@@ -1,0 +1,24 @@
+.filter-by {
+    padding: 10px 20px; /* Add some padding for spacing */
+    border-radius: 8px; /* Rounded corners for a cleaner look */
+    max-width: 300px; /* Restrict the width of the filter section */
+  }
+  
+  .filter-title {
+    font-size: 16px; /* Slightly larger font size for the title */
+    font-weight: bold; /* Make the title bold */
+    margin-bottom: 8px; /* Space between the title and the dropdown */
+    color: #333; /* Darker color for the title */
+  }
+  
+  .filter-dropdown {
+    width: 100%; /* Make the dropdown take the full width */
+    padding: 8px; /* Add padding inside the dropdown */
+    font-size: 14px; /* Adjust font size */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners for the dropdown */
+    background-color: #fff; /* White background for the dropdown */
+    color: #333; /* Darker text color */
+    cursor: pointer; /* Change cursor to pointer for better UX */
+  }
+  

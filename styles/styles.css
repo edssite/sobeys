@@ -15,6 +15,7 @@
  @import url("../blocks/custom/hover-items.css");
  @import url("../blocks/custom/bakerybanner.css");
  @import url("../blocks/custom/cards-custom.css");
+ @import url("../blocks/custom/recipes-banner.css");
 
 :root {
   /* colors */

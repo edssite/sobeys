@@ -1,0 +1,19 @@
+.recipes-banner > div {
+    display: flex;
+    padding-top: 150px;
+}
+
+.recipes-banner > div > div:first-child {
+    background-color: #036141;
+    height: 217px;
+}
+
+.recipes-banner > div > div h2 {
+    color: white;
+    padding-left: 25px;
+}
+
+.recipes-banner > div > div p {
+    color: white;
+    padding-left: 25px;
+}

@@ -1,0 +1,96 @@
+.cards-product > div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+  margin-bottom: 20px;
+}
+
+.product-card {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  background-color: var(--background-color);
+  width: 18.6rem;
+  margin: 0px;
+  padding-bottom: 20px;
+  h2 {
+    font-size: 15pt;
+    line-height: 1.5rem;
+    letter-spacing: 0.0625rem;
+    color: #211645;
+    font-weight: light;
+  }
+  p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 100;
+  }
+
+
+  .button-container a {
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+    padding: 0;
+    /* border-radius: 4px; */
+  }
+  border: 1px solid #ccc; /* Thin grey border around each card */
+}
+
+
+.product-card-body h2, 
+.product-card-body p {
+  margin: 2px; /* Removes default margins */
+  padding: 0; /* Removes any padding */
+  color: black; /* Keep the color setting */
+}
+
+
+.product-card-body h2 {
+  margin-bottom: 5px; /* Adds a small space below the h2 */
+}
+
+.product-card-title {
+  padding-left: 20px;
+}
+.product-card-image {
+  width: 100%;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.product-card-image > picture img{
+  width: 400px;
+  height: 250px;
+}
+.product-card-body-wrapper {
+  display: flex;
+  border-top: 1px solid #ccc;
+  padding-top: 0px;
+}
+
+.product-card-body-wrapper > div h2{
+  font-size: large;
+}
+
+.product-meta {
+  display: flex;
+
+}
+
+.product-meta > p > picture img {
+  width: 38px;
+}
+
+
+.product-card-body {
+  padding-left: 3px;
+  padding-right: 10px;
+  font-weight: medium;
+  margin: 0px;
+  h2, p {
+    color: black;
+  }
+}
