@@ -4,18 +4,57 @@ footer {
   color: #FFFFFF;
 }
 
-footer .footer > div {
-  margin: auto;
+footer .footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   max-width: 1200px;
-  padding: 40px 24px 24px;
+  margin: 0 auto;
+  padding: 40px 25px;
 }
 
-footer .footer p {
-  margin: 0;
+footer .footer > div { 
+  flex: 1;
+  margin: 0 15px;
+  padding-bottom: 30px;
 }
 
-@media (width >= 900px) {
-  footer .footer > div {
-    padding: 40px 32px 24px;
-  }
+footer h4 {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+footer h3, h5{
+  font-weight: 300;
+  font-size: 14px;
+}
+
+footer p, footer a {
+  font-size: 14px;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+.footer-cta {
+  display: flex;
+  justify-content: space-between;
+  gap: 3px; /* Adjust the gap between flex items */
+  padding-bottom: 10px; /* Add some padding to make the line more visible */
+}
+
+
+.footer-support-links{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+
+
+@media (max-width: 900px) {
+  footer .footer {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 20px;
+    }
 }
