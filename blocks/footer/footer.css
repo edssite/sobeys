@@ -13,10 +13,20 @@ footer .footer {
   padding: 40px 25px;
 }
 
-footer .footer > div {
+footer .footer > div { 
   flex: 1;
   margin: 0 15px;
   padding-bottom: 30px;
+}
+
+footer h4 {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+footer h3, h5{
+  font-weight: 300;
+  font-size: 14px;
 }
 
 footer p, footer a {
