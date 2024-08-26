@@ -39,11 +39,17 @@ footer p, footer a {
   display: flex;
   justify-content: space-between;
   gap: 3px; /* Adjust the gap between flex items */
-  border-top: 1px solid lightgrey; /* Add a thin gray line above */
-  border-bottom: 0.5px solid lightgrey; /* Add a thin gray line below */
-  padding-top: 10px; /* Add some padding to make the line more visible */
   padding-bottom: 10px; /* Add some padding to make the line more visible */
 }
+
+
+.footer-support-links{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+
 
 @media (max-width: 900px) {
   footer .footer {
