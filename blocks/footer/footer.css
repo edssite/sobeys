@@ -24,6 +24,12 @@ footer h4 {
   font-weight: 300;
 }
 
+.footer-support-links > div:last-child > div{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
 footer h3, h5{
   font-weight: 300;
   font-size: 14px;
@@ -42,14 +48,12 @@ footer p, footer a {
   padding-bottom: 10px; /* Add some padding to make the line more visible */
 }
 
-
 .footer-support-links{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   
 }
-
 
 @media (max-width: 900px) {
   footer .footer {
