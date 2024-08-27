@@ -13,34 +13,6 @@ footer .footer {
   padding: 40px 25px;
 }
 
-footer .footer > div { 
-  flex: 1;
-  margin: 0 15px;
-  padding-bottom: 30px;
-}
-
-footer h4 {
-  font-size: 18px;
-  font-weight: 300;
-}
-
-footer h3, h5{
-  font-weight: 300;
-  font-size: 14px;
-}
-
-footer p, footer a {
-  font-size: 14px;
-  color: #FFFFFF;
-  text-align: left;
-}
-
-.footer-cta {
-  display: flex;
-  justify-content: space-between;
-  gap: 3px; /* Adjust the gap between flex items */
-  padding-bottom: 10px; /* Add some padding to make the line more visible */
-}
 
 
 .footer-support-links{
@@ -50,11 +22,48 @@ footer p, footer a {
   
 }
 
+.footer-mobile > div > div{
+padding: 15px;
+}
 
-@media (max-width: 900px) {
-  footer .footer {
-      flex-direction: column;
-      align-items: flex-start;
-      padding: 20px;
-    }
+
+.footer-mobile > div:first-child {
+  display: flex;
+  border: solid 0.25px white;
+  padding: 10px;
+}
+
+.footer-mobile > div:last-child > div:last-child {
+  display: flex;
+}
+
+.footer-mobile > div:last-child > div:last-child img {
+  width: 45px;
+  height: 45px;
+}
+
+.footer-mobile > div:last-child > div:last-child > div{
+  display: flex;
+}
+
+.footer-mobile > div:last-child > div:last-child > div img{
+  width: 45px;
+  height: 45px;
+}
+
+.footer-cta {
+  display: flex;
+}
+
+
+.footer-mobile-container {
+  display: flex;
+}
+
+.footer-support-links > div:last-child > div {
+  display: flex;
+}
+
+.footer-support-links {
+  border-top: solid 1px white;
 }
