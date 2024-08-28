@@ -8,12 +8,12 @@ footer .footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  max-width: 1200px;
   margin: 0 auto;
-  padding: 40px 25px;
+  padding-top: 40px;
+  padding-right: 25px;
+  padding-bottom: 30px;
+  padding-left: 25px;
 }
-
-
 
 .footer-support-links{
   display: flex;
@@ -22,19 +22,46 @@ footer .footer {
   
 }
 
-.footer-mobile > div > div{
-padding: 15px;
+.footer-cta h3{
+  font-size: 14px;
 }
 
+.footer-mobile > div:first-child h5{
+  font-size: 14px;
+}
+
+.footer-mobile > div:first-child p{
+  font-size: 13px;
+}
+
+.footer-mobile > div:first-child a{
+  font-size: 13px;
+}
 
 .footer-mobile > div:first-child {
   display: flex;
-  border: solid 0.25px white;
-  padding: 10px;
+  border: solid 0.1px rgba(255, 255, 255, 0.444);
+  padding-top: 25px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+}
+
+.footer-mobile > div:first-child >div:last-child img{
+  width: 150px;
+  height: auto;
+}
+
+.footer-mobile > div:last-child h5{
+  font-size: 16px;
 }
 
 .footer-mobile > div:last-child > div:last-child {
   display: flex;
+}
+
+.footer-mobile > div:last-child {
+  padding-top: 30px;  
 }
 
 .footer-mobile > div:last-child > div:last-child img {
@@ -53,8 +80,18 @@ padding: 15px;
 
 .footer-cta {
   display: flex;
+  padding-left: 40px;
+  gap: 30px;
+  justify-content: space-evenly;
 }
 
+.footer-mobile > div:last-child > div:first-child{
+  padding-bottom: 0%;
+}
+
+.footer-mobile > div:last-child > div:last-child{
+  padding-top: 0%;
+}
 
 .footer-mobile-container {
   display: flex;
@@ -62,8 +99,11 @@ padding: 15px;
 
 .footer-support-links > div:last-child > div {
   display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
 }
 
 .footer-support-links {
-  border-top: solid 1px white;
+  border-top: solid 0.1px rgba(255, 255, 255, 0.444);
+  font-size: 16px;
 }
